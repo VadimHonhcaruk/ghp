@@ -1,0 +1,89 @@
+.loginCont {
+  background-image: url("../login.jpg");
+  background-size: cover;
+  border-radius: 15px;
+  border: 3px solid black;
+  width: 35vw;
+  height: 35vw;
+  font-weight: 900;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  color: white;
+}
+
+.pass {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.yesCont {
+  background-image: url("../yesno.jpg");
+  background-size: cover;
+  border-radius: 15px;
+  border: 3px solid black;
+  width: 35vw;
+  height: 35vw;
+  font-weight: 900;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 100px;
+  color: white;
+}
+
+span {
+  background-color: pink;
+  padding: 1%;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+
+.buttCont {
+  display: flex;
+  gap: 100px;
+}
+
+.buttYes,
+.buttNo {
+  height: 10vh;
+  width: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid black;
+  cursor: pointer;
+}
+
+.buttYes {
+  transition: all ease-in 0.1s;
+  background-color: rgb(18, 213, 18);
+}
+
+.buttYes:hover {
+  background-color: rgb(4, 255, 4);
+}
+
+.buttNo {
+  background-color: red;
+}
+
+.buttNo:hover {
+  color: rgba(240, 248, 255, 0);
+  background-image: url("../../public/images/230.png");
+  background-size: contain;
+  height: 10vh;
+  height: 10vh;
+  cursor: none;
+  user-select: none;
+}
+
+.fuckyouImage {
+  width: 10vh;
+  border: 5px solid black;
+}

@@ -1,0 +1,35 @@
+.cont {
+  width: 60vw;
+  height: 80vh;
+  background-color: pink;
+  border: 3px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.photoDisplay {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.butt {
+  padding: 10px 40px;
+  margin-bottom: 20px;
+  background-color: rgb(246, 155, 193);
+  border: 1px solid grey;
+  color: white;
+  font-weight: 900;
+  font-size: 20px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.photo {
+  height: inherit;
+  border: 3px solid white;
+}
